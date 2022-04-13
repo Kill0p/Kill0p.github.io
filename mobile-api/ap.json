@@ -12,7 +12,7 @@
   "airship.tracking.basket_badge_count": true,
   "airship.tracking.purchase_completed": true,
   "airship.tracking.user_info": true,
-  "app.base_url": "https://bp-remote-8800-mstrzelczyk.dev.devphpbp.m4u.pl/",
+  "app.base_url": "https://bonprixplnew.media4u.pl/",
   "configurations": [
     {
       "config_pl": "config_pl.json"
