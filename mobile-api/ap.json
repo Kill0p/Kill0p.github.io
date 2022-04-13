@@ -12,7 +12,7 @@
   "airship.tracking.basket_badge_count": true,
   "airship.tracking.purchase_completed": true,
   "airship.tracking.user_info": true,
-  "app.base_url": "https://bonprixplnew.media4u.pl/",
+  "app.base_url": "https://newdevpl.bonprix.pl/",
   "configurations": [
     {
       "config_pl": "config_pl.json"
@@ -45,7 +45,7 @@
   "feature.push.install_default_opt_in": true,
   "feature.rating": true,
   "feature.recommendation": true,
-  "feature.shakeADeal": false,
+  "feature.shakeADeal": true,
   "feature.sharing": false,
   "feature.track_uninstall": true,
   "feature.tracking": true,
@@ -54,8 +54,20 @@
   "firebase.log_caught_exceptions": true,
   "i18n.countries": [
     {
+      "code": "pl",
+      "host": "pl.bonprix.pl",
+      "locale": "pl_PL",
+      "name": "Polska"
+    },
+    {
+      "code": "ro",
+      "host": "ro.bonprix.pl",
+      "locale": "ro_RO",
+      "name": "România"
+    },
+    {
       "code": "ua",
-      "host": "bonprix.ua",
+      "host": "ua.bonprix.pl",
       "locale": "ru_UA",
       "name": "Украина",
       "aliases": [
@@ -63,28 +75,16 @@
       ]
     },
     {
-      "code": "hu",
-      "host": "bonprix.hu",
-      "locale": "hu_HU",
-      "name": "Magyarország"
-    },
-    {
       "code": "sk",
-      "host": "bonprix.sk",
+      "host": "sk.bonprix.pl",
       "locale": "sk_SK",
       "name": "Slovensko"
     },
     {
-      "code": "pl",
-      "host": "bonprix.pl",
-      "locale": "pl_PL",
-      "name": "Polska"
-    },
-    {
-      "code": "ro",
-      "host": "bonprix.ro",
-      "locale": "ro_RO",
-      "name": "România"
+      "code": "hu",
+      "host": "hu.bonprix.pl",
+      "locale": "hu_HU",
+      "name": "Magyarország"
     }
   ],
   "i18n.install_default": "pl",
