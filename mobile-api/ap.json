@@ -1,5 +1,4 @@
-{
-  "adjust.token.purchase_completed": "e82ad8",
+ "adjust.token.purchase_completed": "e82ad8",
   "adjust.token.rated_good": "1gkz4q",
   "adjust.token.rating_choice_bad": "s371gq",
   "adjust.token.rating_choice_good": "utvxpe",
@@ -54,20 +53,8 @@
   "firebase.log_caught_exceptions": true,
   "i18n.countries": [
     {
-      "code": "pl",
-      "host": "pl.bonprix.pl",
-      "locale": "pl_PL",
-      "name": "Polska"
-    },
-    {
-      "code": "ro",
-      "host": "ro.bonprix.pl",
-      "locale": "ro_RO",
-      "name": "România"
-    },
-    {
       "code": "ua",
-      "host": "ua.bonprix.pl",
+      "host": "bonprix.ua",
       "locale": "ru_UA",
       "name": "Украина",
       "aliases": [
@@ -75,16 +62,28 @@
       ]
     },
     {
+      "code": "hu",
+      "host": "bonprix.hu",
+      "locale": "hu_HU",
+      "name": "Magyarország"
+    },
+    {
       "code": "sk",
-      "host": "sk.bonprix.pl",
+      "host": "bonprix.sk",
       "locale": "sk_SK",
       "name": "Slovensko"
     },
     {
-      "code": "hu",
-      "host": "hu.bonprix.pl",
-      "locale": "hu_HU",
-      "name": "Magyarország"
+      "code": "pl",
+      "host": "bonprix.pl",
+      "locale": "pl_PL",
+      "name": "Polska"
+    },
+    {
+      "code": "ro",
+      "host": "bonprix.ro",
+      "locale": "ro_RO",
+      "name": "România"
     }
   ],
   "i18n.install_default": "pl",
@@ -94,9 +93,9 @@
   "navigation.legacy.logout_button": true,
   "navigation.upper_case_mode": "none",
   "push.promotion_layer.trigger.app_start": false,
-  "push.promotion_layer.trigger.purchase_completed": true,
+  "push.promotion_layer.trigger.purchase_completed": false,
   "push.promotion_layer.trigger.purchase_completed.delay_seconds": 2.5,
-  "push.promotion_layer.trigger.screen_views": true,
+  "push.promotion_layer.trigger.screen_views": false,
   "push.promotion_layer.trigger.screen_views.count": 20,
   "push.promotion_layer.trigger.url": true,
   "push.promotion_layer.trigger.webbridge": true,
@@ -168,7 +167,6 @@
   ],
   "sharing.screenshot_mode": "with_link",
   "shop.clear_session_cookie": false,
-  "token.override.RETRIEVAL_DEFAULT_AUTH": "Basic bmV3Ym9ucHJpeHRlc3RwbDpkMlNqNUZrMkVqM0xmNUNkNlBzRDJtVTQ=",
   "toolbar.title_mode": "bridge",
   "tracking.adjust.add_to_basket": "wp7ko3",
   "tracking.adjust.add_to_wishlist": "3rhd0k",
