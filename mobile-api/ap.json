@@ -226,6 +226,7 @@
   ],
   "urls.internal": [
     "regex:^https?:\\/\\/.*bonprix.*\\..*",
+    "regex:^https?:\\/\\/.*bp-remote-8800-mstrzelczyk.dev.devphpbp.m4u.*\\..*"
     "a.twiago.com",
     "ad.360yield.com",
     "ad.adriver.ru",
