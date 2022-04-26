@@ -12,7 +12,7 @@
   "airship.tracking.basket_badge_count": true,
   "airship.tracking.purchase_completed": true,
   "airship.tracking.user_info": true,
-  "app.base_url": "https://bp-remote-8800-mstrzelczyk.dev.devphpbp.m4u.pl/",
+  "app.base_url": "https://bonprix-8800-remote.dev.devphpbp.m4u.pl/",
   "configurations": [
     {
       "config_pl": "config_pl.json"
@@ -226,7 +226,6 @@
   ],
   "urls.internal": [
     "regex:^https?:\\/\\/.*bonprix.*\\..*",
-    "regex:^https?:\\/\\/.*bp-remote-8800-mstrzelczyk.dev.devphpbp.m4u.*\\..*",
     "a.twiago.com",
     "ad.360yield.com",
     "ad.adriver.ru",
@@ -360,7 +359,6 @@
   ],
   "urls.refresh_trigger": [],
   "urls.start_page": [
-    "regex:^https?:\\/\\/(.+\\.)?bp-remote-8800-mstrzelczyk.dev.devphpbp.m4u(ro|shop|)\\.[a-z]+\\/$",
     "regex:^https?:\\/\\/(.+\\.)?bonprix(ro|shop|)\\.[a-z]+\\/$"
   ],
   "user.persist_state": true,
